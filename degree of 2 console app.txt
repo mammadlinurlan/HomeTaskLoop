@@ -1,0 +1,38 @@
+using System;
+
+namespace degreeOfN
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = 1;
+            if (n % 2 == 0)
+            {
+                while (n % 2 == 0)
+                {
+                    n /= 2;
+                }
+                if (n == 1)
+                {
+                    Console.WriteLine(true);
+                }
+                else
+                {
+                    Console.WriteLine(false);
+                }
+            }
+            else
+            {
+                if (n == 1)
+                {
+                    Console.WriteLine(true);
+                }
+                else
+                {
+                    Console.WriteLine(false);
+                }
+            }
+        }
+    }
+}
